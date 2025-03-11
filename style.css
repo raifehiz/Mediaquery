@@ -29,7 +29,9 @@ header ul{
     width: 50vw;
     height: 60vh;
     background-image: url(./img/1.jpeg);
-    background-size: cover;
+    background-size: contain;  /* Resmi bozmadan tamamen sığdırır */
+    background-repeat: no-repeat; /* Tekrar etmesin */
+    background-position: center; /* Ortaya hizala */
 }
 
 img{
