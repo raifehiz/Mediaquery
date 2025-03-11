@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
-.container{
+body{
     background-color: #D66820;
+}
+
+.container{
     width: 100vw;
     height: 100vh;
 }
@@ -27,7 +30,7 @@ header ul{
 .foto{
     margin-top: 20px;
     width: 50vw;
-    height: 60vh;
+    height: 50vh;
     background-image: url(./img/1.jpeg);
     background-size: contain;  /* Resmi bozmadan tamamen sığdırır */
     background-repeat: no-repeat; /* Tekrar etmesin */
@@ -40,7 +43,7 @@ img{
 }
 
 @media screen and (max-width:1024px) {
-    .container{
+    body{
         background-color: #17C5CE;
     }
     .foto{
@@ -50,7 +53,7 @@ img{
 }
 
 @media screen and (max-width:768px) {
-    .container{
+    body{
         background-color: #7E31CE;
     }
 
@@ -70,7 +73,7 @@ img{
 }
 
 @media screen and (max-width:480px) {
-    .container{
+    body{
         background-color: #78CF1B;
     }
 
@@ -80,7 +83,7 @@ img{
 
     header ul{
         display: block;
-text-align: center;
+        text-align: center;
     }
 
     .foto{
